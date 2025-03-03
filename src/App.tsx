@@ -1,9 +1,9 @@
 export default function App() {
   return (
-    <div className="flex  justify-center items-center bg-pink-500 text-pink-100 h-screen">
+    <div className="flex  justify-center items-center bg-pink-500 h-screen">
       <div
         id="Card"
-        className="flex flex-col justify-end w-52 h-64 p-4 relative  bg-fuchsia-100 rounded-md shadow-lg shadow-lime-300 "
+        className="flex flex-col justify-end w-52 h-64 p-4 relative  bg-yellow-200 rounded-md shadow-lg shadow-lime-300 "
       >
         <div className="bg-blue-400 w-44 h-24 absolute -top-5 rounded-lg shadow-lg text-transparent">
           .
