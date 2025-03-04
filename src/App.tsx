@@ -1,23 +1,16 @@
-export default function App() {
-  return (
-    <div className="flex  justify-center items-center bg-pink-500 h-screen">
-      <div
-        id="Card"
-        className="flex flex-col justify-end w-52 h-64 p-4 relative  bg-yellow-200 rounded-md shadow-lg shadow-lime-300 "
-      >
-        <div className="bg-blue-400 w-44 h-24 absolute -top-5 rounded-lg shadow-lg text-transparent">
-          .
-        </div>
-        <h1 className="text-lime-600">Wolcome</h1>
-        <p className="text-lime-800">
-          Una plataforma digital que te pemitira interactuar con tu tienda de
-          ropa
-        </p>
+import { useNavigate } from 'react-router'
+import Perro from './assets/perro.png'
 
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+export default function App() {
+
+  const navigate=useNavigate()
+  return (
+    <div style={{backgroundImage:`url(${Perro})`}} className='w-scren h-screen bg-contain bg-no-repeat object-contain '  >
+      <div className='bg-pink-300 w-64 h-80 absolute right-10 top-10 border border-amber-700 rounded-md shadow-md'>
+        <button onClick={()=>navigate('/Carta')} className="bg-pink-500 hover:bg-pink-400 text-white font-bold py-2 px-4 rounded">
           Button
         </button>
       </div>
     </div>
-  );
+  )
 }
