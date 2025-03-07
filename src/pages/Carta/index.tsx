@@ -5,6 +5,7 @@ export default function Carta() {
 
   return (
     <div className="flex  justify-center items-center bg-pink-200 h-screen">
+      
       <div
         id="Card"
         className="flex flex-col justify-end w-52 h-64 p-4 relative  bg-yellow-200 rounded-md shadow-lg shadow-lime-300 "
