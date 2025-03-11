@@ -21,6 +21,7 @@ export default function App() {
           Entrar
         </button>
       </form>
+      </form>
       </div>
     </div>
   )
